@@ -7,7 +7,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <ImageView fitHeight="144.0" fitWidth="146.0" layoutX="6.0" layoutY="9.0">
@@ -35,17 +34,17 @@
             <Font size="36.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="218.0" layoutY="166.0" prefHeight="40.0" prefWidth="224.0">
+      <Label fx:id="label_result" alignment="CENTER" layoutX="218.0" layoutY="166.0" prefHeight="40.0" prefWidth="241.0">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Button layoutX="28.0" layoutY="268.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="190.0" text="Goto Input">
+      <Button fx:id="goto_input" layoutX="28.0" layoutY="268.0" mnemonicParsing="false" onAction="#on_input" prefHeight="54.0" prefWidth="190.0" text="Goto Input">
          <font>
             <Font size="24.0" />
          </font>
       </Button>
-      <Button layoutX="389.0" layoutY="268.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="190.0" text="Goto Output">
+      <Button fx:id="goto_output" layoutX="389.0" layoutY="268.0" mnemonicParsing="false" onAction="#on_output" prefHeight="54.0" prefWidth="190.0" text="Goto Output">
          <font>
             <Font size="24.0" />
          </font>
