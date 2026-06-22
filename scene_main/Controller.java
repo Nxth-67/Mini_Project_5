@@ -39,6 +39,7 @@ public class Controller {
 
 
         var loader = new FXMLLoader();
+        URL view_ouptut = null;
         loader.setLocation(view_ouptut);
         loader.setController(controller_output);
 
