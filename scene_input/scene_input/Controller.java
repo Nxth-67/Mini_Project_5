@@ -1,5 +1,6 @@
+package scene_input;
 
-
+import global.Global;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -19,7 +20,7 @@ public class Controller {
 
     @FXML
     void on_save(ActionEvent event) {
-
+        Global.data = textfield.getText();
     }
 
 }
