@@ -1,5 +1,9 @@
 public class Main extends javafx.application.Application {
 
+        public static void main(String[] args) {
+        launch(args);
+    }
+    
     @Override
     public void start(javafx.stage.Stage stage) throws Exception {
         var view_main = getClass().getResource("scene_main/View_main.fxml");
@@ -13,10 +17,6 @@ public class Main extends javafx.application.Application {
 
         stage.setScene(scene);
         stage.show();
-    }
-
-    public static void main(String[] args) {
-        launch(args);
     }
     
 }
