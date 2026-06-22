@@ -22,6 +22,6 @@ public class Main extends javafx.application.Application {
 
         stage.setScene(scene);
         stage.show();
-    }ss
+    }
     
 }
