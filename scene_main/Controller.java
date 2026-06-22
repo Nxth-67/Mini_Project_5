@@ -1,5 +1,7 @@
 
 
+package scene_main;
+
 import java.io.IOException;
 import java.net.URL;
 
@@ -31,7 +33,7 @@ public class Controller {
     void on_output(ActionEvent event) throws IOException {
         var stage = (Stage) label_result.getScene().getWindow();
         
-        var view_ouptut = getClass().getResource("scene_output/View_output.fxml");
+        var view_output = getClass().getResource("/scene_output/View.fxml");
         var controller_output = new scene_output.Controller();
 
 
